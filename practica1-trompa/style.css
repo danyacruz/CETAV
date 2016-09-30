@@ -1,0 +1,84 @@
+/* general */
+#page-wrap {
+	width: 800px;
+	background-color: #fff;
+    margin: 0 auto;
+}
+p, ul {
+	font-size: 18px;
+}
+
+/*contenido*/
+#pic {
+	float: right;
+	margin-top: -28px;
+}
+
+h1.fn {
+	padding-bottom: 5px;
+}
+
+.fn {
+	border-bottom: 2px solid lightgray;
+}
+
+a.email {
+	color: gray;
+	text-decoration: none;
+	border-bottom: 1px dotted gray;
+}
+
+#objective, span.experience { 
+	color: gray;
+	font-family: helvetica;
+}
+
+dl.infoContainer {
+	display: inline-block;	
+	/*width: 80%;*/
+	margin: 25px 45px;
+}
+
+dt.heading {
+	display: inline-block;
+	font-size: 20px;
+	/*float: left;*/
+}
+
+dd {
+	/*float: left;*/
+	padding-left: 20px;
+	border-width: 2px;
+	border-left-style: solid;
+	border-color: lightgray;
+	position: relative;
+	bottom:22px;
+	left:65px; 	
+}
+	
+h2.tittles {
+	display: inline;
+	font-family: arial, serif;
+	font-size: 20px;
+}
+
+/*.heading {
+	border-right-style: solid;
+	padding-left: 60px;
+	border-color: gray;
+	border-width: 1px;
+}*/
+
+span.experience {
+	/*float: right;*/
+	font-size: 16px;
+	margin-left: 120px;
+	/*position: relative;
+	left: 265px;*/
+}
+
+/*reutilizacion de clases*/
+.technicianSkills,.secondExp {
+	border-left-style: none;
+	padding-left: 20px;
+} 
