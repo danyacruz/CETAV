@@ -1,0 +1,71 @@
+/* general */
+#page-wrap {
+	width: 800px;
+	background-color: #fff;
+    margin: 0 auto;
+}
+p, ul {
+	font-size: 18px;
+}
+
+/*contenido*/
+#pic {
+	float: right;
+	margin-top: -28px;
+}
+
+h1.fn {
+	padding-bottom: 5px;
+}
+
+.fn {
+	border-bottom: 2px solid lightgray;
+}
+
+a.email {
+	color: gray;
+	text-decoration: none;
+	border-bottom: 1px dotted gray;
+}
+
+#objective, span.experience { 
+	color: gray;
+	font-family: helvetica;
+}
+
+dl.infoContainer {
+	display: inline-block;	
+	margin: 25px 45px;
+}
+
+dt.heading {
+	display: inline-block;
+	font-size: 20px;
+}
+
+dd {
+	padding-left: 20px;
+	border-width: 2px;
+	border-left-style: solid;
+	border-color: lightgray;
+	position: relative;
+	bottom:22px;
+	left:65px; 	
+}
+	
+h2.tittles {
+	display: inline;
+	font-family: arial, serif;
+	font-size: 20px;
+}
+
+span.experience {
+	font-size: 16px;
+	margin-left: 120px;
+}
+
+/*reutilizacion de clases*/
+.technicianSkills,.secondExp {
+	border-left-style: none;
+	padding-left: 20px;
+} 
