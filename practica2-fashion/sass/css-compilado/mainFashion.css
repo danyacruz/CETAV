@@ -1,0 +1,77 @@
+/*General*/
+.wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 1024px;
+  position: relative; }
+
+/*Header*/
+.nav_main a {
+  text-decoration: none;
+  color: #fff; }
+
+.nav_main {
+  float: right;
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.nav_main li {
+  display: inline;
+  margin-left: 35px;
+  text-transform: uppercase; }
+
+.nav_main a:hover {
+  color: #f2d13e; }
+
+ul.listing {
+  margin: -20px 0 0 350px; }
+
+/*Body*/
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #3498db;
+  margin: 0; }
+
+h2 {
+  font-size: 20px;
+  margin: 0; }
+
+.moreInfo {
+  background-color: #fff;
+  height: 155px;
+  width: 305px;
+  padding: 10px;
+  position: absolute;
+  right: 60px;
+  top: 230px; }
+
+p.main_info {
+  width: 305px;
+  color: #000;
+  font-size: 18px;
+  text-align: justify; }
+
+.top_news {
+  padding-left: 55px; }
+
+.widget {
+  width: 317px;
+  display: inline-block; }
+
+.widget:first-child {
+  float: left;
+  margin-right: 10px; }
+
+.widget_middle {
+  width: 317px;
+  float: left; }
+
+.widget:last-child {
+  float: right; }
+
+.widget_info {
+  width: 305px;
+  text-align: justify; }
+
+/*# sourceMappingURL=mainFashion.css.map */

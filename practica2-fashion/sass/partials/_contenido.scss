@@ -1,0 +1,58 @@
+/*Body*/
+h1 {
+  font-size: $hsFontSize;
+  text-transform: $textTransf;
+  color: $h1Color;
+  margin: 0;
+}
+
+h2 {
+  font-size: $hsFontSize; 
+  margin: 0;
+}
+
+.moreInfo{
+  background-color: $bgkColor;
+  height: 155px;
+  width: $widthReused;
+  padding: $padding;
+  position: absolute;
+  right: 60px;
+  top: 230px;
+}
+
+p.main_info{
+  width:$widthReused;
+  color: $prfColor;
+  font-size: $prfFontSize;
+  text-align: justify;
+}
+
+.top_news {
+	padding-left:55px;
+}
+
+.widget {
+  width:$snglWidth;
+  display: inline-block;
+}
+
+.widget:first-child {
+  float: left;
+  margin-right: 10px;
+} 
+
+.widget_middle{
+  width:$snglWidth;
+	float: left;
+}
+
+.widget:last-child{
+  float: right;
+}
+
+.widget_info {
+  width:$widthReused;
+	text-align: justify;
+}
+

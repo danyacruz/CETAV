@@ -1,0 +1,25 @@
+/*Header*/
+.nav_main a{
+	text-decoration: none;
+	color: $anchrColor;
+}
+
+.nav_main {
+  float: right;
+  font-size: $navFntSze;
+  margin-bottom: $margBottom;
+}
+
+.nav_main li {
+  display: inline;
+  margin-left: $margLeft;
+  text-transform: $textTransf;
+}
+
+.nav_main a:hover{
+  color: $anchrHover;
+}
+
+ul.listing {
+  margin: -20px 0 0 350px;
+}
