@@ -1,0 +1,21 @@
+// footer
+
+.footer {
+	background-color: $footer-bckgrnd;
+	height: 233px;
+	margin-top: 150px;
+	position: relative;
+}
+
+.contact{ 
+	color: $contact-fontcolor;
+	float: left;
+	margin: 40px 10px;
+	width: 300px;
+}
+
+.imageGallery {
+	color: $imageGallery-color;
+	margin: 145px 0px 39px 0px;
+	text-align: center;
+}
