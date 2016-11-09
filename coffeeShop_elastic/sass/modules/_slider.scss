@@ -1,0 +1,33 @@
+// slider config
+
+.widget {
+	color: $widget-fontcolor;
+	padding: 0 300px;
+	position: relative;
+	top: -265px;
+	width: 25.81em;
+}
+
+.widgetImg {
+	margin: 260px 0px 0px 550px;
+	//position: relative;
+}
+
+.rightArrow, .leftArrow, .moreDots{
+	position: relative;
+}
+
+.rightArrow {
+	top: 40px;
+	left: 100px; 
+}
+
+.leftArrow { 
+	top: 40px;
+	right: -945px;
+}
+
+.moreDots {
+	right: -350px;
+	top: 215px;
+}

@@ -1,0 +1,58 @@
+nav {
+
+	background-color: $nav-bckgrnd;
+	border-bottom: 3px solid $darker-gray;
+	border-radius: 25px;
+	float: right;
+	height: 50px;
+	margin: 40px 115px;
+	//margin: 40px 100px 0 0;
+	//width: 32.5em;	
+	& a {
+		color: $nav-anchor;
+		margin: 0 20px;	
+	}
+}
+
+.featureArea {
+
+	background-color: $feature-area-bckgrnd;
+	color: $darkest-gray;
+	clear: both;
+	height: 411px;
+	position: relative;
+	& img {
+		margin: 115px 0 0 130px;
+	}
+	& p {
+		text-align: justify;
+		padding: 35px;
+	}
+}
+
+.gallery {
+
+	background-color: $gallery-bckgrnd;
+	//height: 510px;
+	margin: 0 auto;
+	position: relative;
+	width: 66.37em;
+	& img{
+		padding: 30px;
+		position: inherit;
+	}
+}
+
+.design {
+
+	float: left;
+	height: 90px;
+	width: 80em; 
+	& p {
+		color: $design-fontcolor;
+		margin-top: 60px;
+	}
+	& img {
+		padding:0 640px; 
+	}
+}

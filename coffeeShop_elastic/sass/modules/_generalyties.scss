@@ -1,0 +1,22 @@
+// generalyties
+
+.wrapper {
+	background-color: $bckgrnd;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header{	
+	//background-color: $header-line;
+	//height: 10px; 
+	border: 5px solid $header-line;
+}
+
+a {
+	color: $anchors-fontcolor;
+	text-decoration: none;
+}
+
+h1, h2{
+	font-size: $gen-font-size;
+}
