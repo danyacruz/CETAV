@@ -1,0 +1,132 @@
+nav {
+  background-color: #f2f2f2;
+  border-bottom: 3px solid #9d9c9c;
+  border-radius: 25px;
+  float: right;
+  height: 50px;
+  margin: 40px 100px 0 0;
+  width: 40.62%; }
+  nav a {
+    color: #9d9c9c;
+    margin: 0 20px; }
+
+.featureArea {
+  background-color: #845f51;
+  color: #666;
+  clear: both;
+  height: 411px;
+  position: relative; }
+  .featureArea img {
+    margin: 115px 0 0 130px; }
+  .featureArea p {
+    text-align: justify;
+    padding: 35px; }
+
+.gallery {
+  background-color: #f3b9b9;
+  height: 510px;
+  margin: 0 auto;
+  position: relative;
+  width: 82.96%; }
+  .gallery img {
+    padding: 30px;
+    position: inherit; }
+
+.design {
+  float: left;
+  height: 90px;
+  width: 100%; }
+  .design p {
+    color: #666;
+    margin-top: 60px; }
+  .design img {
+    padding: 0 640px; }
+
+.menu {
+  background-color: #e8e8e8;
+  height: 427px;
+  position: relative; }
+
+.logo {
+  padding: 40px 0 0 116px; }
+
+.wrapper {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 100%; }
+
+.header {
+  background-color: #664735;
+  height: 10px; }
+
+a {
+  color: #826251;
+  text-decoration: none; }
+
+h1, h2 {
+  font-size: 14px; }
+
+.widget {
+  color: #a2a1a2;
+  padding-left: 200px;
+  position: relative;
+  top: -265px;
+  width: 31.15%; }
+
+.widgetImg {
+  margin: 260px 0px 0px 550px; }
+
+.rightArrow, .leftArrow, .moreDots {
+  position: relative; }
+
+.rightArrow {
+  top: 40px;
+  left: 100px; }
+
+.leftArrow {
+  top: 40px;
+  right: -945px; }
+
+.moreDots {
+  right: -350px;
+  top: 215px; }
+
+.serviceArea {
+  color: #a2a1a2;
+  float: left;
+  margin: -100px 0px 100px 95px;
+  text-align: center;
+  width: 23.43%; }
+
+.whoWeAre {
+  background-color: #664735;
+  color: #fff;
+  float: right;
+  height: 411px;
+  position: inherit;
+  width: 39.84%; }
+
+button {
+  background-color: #efeceb;
+  border-radius: 10px;
+  margin: 28px 0 0 35px;
+  padding: 16px 20px; }
+
+.footer {
+  background-color: #664735;
+  height: 233px;
+  margin-top: 150px;
+  position: relative; }
+
+.contact {
+  color: #fff;
+  float: left;
+  margin: 40px 10px;
+  width: 23.15%; }
+
+.imageGallery {
+  color: #a2a1a2;
+  margin: 145px 0px 39px 0px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
