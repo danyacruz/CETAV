@@ -1,0 +1,27 @@
+.wrapper {
+	margin:0 auto;
+	width: 1024px;
+}
+
+table {
+	border: 5px solid #a2d9cE;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+th,
+td {
+	height: 65px;
+	width: 65px;
+}
+
+th:nth-child(even),
+td:nth-child(odd) {
+	background-color: #5d6d7e;
+}
+
+th:nth-child(odd),
+td:nth-child(even) {
+	background-color: #273746;
+}
+
