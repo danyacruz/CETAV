@@ -1,0 +1,84 @@
+span{
+    color:#00ffae; 
+    font-size: 20px;
+}
+
+#timer{
+    position: relative;
+    top: -40px;
+    left: 625px;
+}
+
+
+#playerBox{
+    width: 600px;
+    background-color: #113D4D;
+    height: 500px;
+    margin:0 auto;
+    border-bottom: 5px solid #00ffae;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+#playerBox span {
+    position: relative;
+    top: 350px;
+    left: -15px;
+}
+
+
+
+.playbutton {
+    background-image: url("images/play.png"); 
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    height: 64px;
+    width: 64px;
+    margin: 0 50px;
+}
+
+.trackname{ 
+	color:#00ffae; 
+	float:left; 
+    display: inline;
+	font-size:20px; 	
+	margin:12px 0px 0px 14px; 
+}
+
+#volume {
+    background-image: url(images/speaker.png);
+    height: 64px;
+    width: 64px;
+    position: relative;
+    top: 415px;
+    left: 50px;
+}
+
+#seekSong {
+    position: relative;
+    top: 392px;
+    left: 100px;
+}
+
+
+#backward, #forward{
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+    position: relative;
+    bottom: -400px;
+}
+
+#backward{
+    background: url(images/.png);
+    left: -245px;
+}
+
+#forward{
+    background: url(images/.png);
+    left: 90px;
+}
+
